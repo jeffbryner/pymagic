@@ -10,3 +10,10 @@ on windows since python-magic and libmagic seem to be out of
 support on windows.
 
 
+Usage: 
+./magic.py somefile.mp3
+somefile.mp3: MPEG ADTS layer III, v1
+
+BUGS: 
+Doesn't use any level beyond level 0 of the file hits, so it will determine /usr/bin/less is ELF, 
+but not ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.9, stripped
