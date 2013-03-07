@@ -1,0 +1,12 @@
+A python module to simulate the unix file command.
+
+Largely inspired/taken/copied from the honeynet magic.py
+except this attempts to use the non-mime descriptions of data
+and to use at least the level 0 magic descriptions from the linux file
+command's Magdir repository of file matches. 
+
+The hope is to have a python module that can be reasonably used
+on windows since python-magic and libmagic seem to be out of 
+support on windows.
+
+
